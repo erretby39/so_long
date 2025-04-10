@@ -6,23 +6,11 @@
 /*   By: soer-ret <soer-ret@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/17 16:03:59 by soer-ret          #+#    #+#             */
-/*   Updated: 2025/04/08 13:20:32 by soer-ret         ###   ########.fr       */
+/*   Updated: 2025/04/09 21:15:36 by soer-ret         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-
-size_t	ft_strlen(const char *s)
-{
-	size_t	i;
-
-	i = 0;
-	if (s == NULL)
-		return (0);
-	while (s[i])
-		i++;
-	return (i);
-}
 
 char	*ft_strchr(const char *str, int c)
 {

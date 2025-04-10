@@ -84,7 +84,7 @@ char	*chyata(char *str)
 char	*get_next_line(int fd)
 {
 	char	*line;
-	char		*res;
+	char	*res;
 
 	line = NULL;
 	if (fd < 0 || BUFFER_SIZE <= 0)
